@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONGKAR - Kab. Sorong Selatan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-[#003366] text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tighter">🏗️ BONGKAR</h1>
+            <div class="space-x-4 text-sm font-medium">
+                <a href="#" class="hover:text-yellow-400">Beranda</a>
+                <a href="#" class="hover:text-yellow-400">Layanan</a>
+                <a href="#" class="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full font-bold">Lapor!</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-b from-[#003366] to-blue-800 text-white py-20 px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4 text-yellow-400">Akses Mudah Untuk Rakyat</h2>
+        <p class="text-lg opacity-90 max-w-2xl mx-auto mb-8">Basis Online Navigasi Gerakan Konsultasi Akses Rakyat - Dinas PUPR Kabupaten Sorong Selatan.</p>
+        <div class="flex justify-center gap-4">
+            <button class="bg-yellow-400 text-blue-900 px-8 py-3 rounded-lg font-bold shadow-xl hover:scale-105 transition">Mulai Konsultasi AI</button>
+        </div>
+    </header>
+
+    <main class="container mx-auto -mt-10 px-4 mb-20">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-2xl border-t-4 border-yellow-400">
+                <div class="flex items-center mb-4">
+                    <i class="fa-solid fa-file-pdf text-3xl text-red-500 mr-3"></i>
+                    <h3 class="text-xl font-bold text-blue-900">Upload Dokumen PDF</h3>
+                </div>
+                <p class="text-gray-600 mb-6">Unggah laporan atau dokumen teknis Anda untuk dianalisis oleh AI BONGKAR secara instan.</p>
+                <input type="file" accept=".pdf" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 cursor-pointer"/>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-2xl border-t-4 border-yellow-400">
+                <div class="flex items-center mb-4">
+                    <i class="fa-solid fa-robot text-3xl text-blue-600 mr-3"></i>
+                    <h3 class="text-xl font-bold text-blue-900">Asisten AI BONGKAR</h3>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg mb-4 text-sm text-gray-700 h-24 overflow-y-auto italic">
+                    "Halo Rain! Ada yang bisa saya bantu terkait layanan PUPR hari ini?"
+                </div>
+                <div class="flex gap-2">
+                    <input type="text" placeholder="Ketik pertanyaan Anda..." class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button class="bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-800"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12 px-4 border-t-4 border-yellow-400">
+        <div class="container mx-auto text-center">
+            <h4 class="text-xl font-bold mb-4 text-yellow-400">Dinas PUPR Kabupaten Sorong Selatan</h4>
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="text-2xl hover:text-pink-500 transition"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="text-2xl hover:text-blue-400 transition"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="text-2xl hover:text-white transition"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <p class="text-gray-400 text-sm">© 2026 BONGKAR. Dikembangkan dengan dedikasi oleh <span class="text-yellow-400 font-bold">Rain</span>.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
