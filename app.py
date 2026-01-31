@@ -18,18 +18,17 @@ except:
     st.stop()
 
 # 3. SETTING MODEL (GEMINI)
-# Memberikan instruksi agar AI paham tugasnya di aplikasi BONGKAR
 system_instruction = (
     "Kamu adalah asisten AI resmi untuk aplikasi BONGKAR (Basis Online Navigasi Gerakan Konsultasi Akses Rakyat). "
     "Tugasmu membantu masyarakat Sorong Selatan terkait informasi Dinas PUPR. "
     "Gunakan bahasa yang sopan, solutif, dan profesional. "
     "Aplikasi ini dikembangkan oleh Rain."
 )
+
 model = genai.GenerativeModel(
-    model_name='models/gemini-1.5-flash',
+    model_name='gemini-1.5-flash', # Gunakan nama ini, sistem akan otomatis menyesuaikan
     system_instruction=system_instruction
 )
-
 # 4. TAMPILAN SIDEBAR
 with st.sidebar:
     st.title("🏗️ BONGKAR")
