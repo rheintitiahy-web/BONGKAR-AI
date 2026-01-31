@@ -23,7 +23,7 @@ system_instruction = (
 )
 
 model = genai.GenerativeModel(
-    'gemini-1.5-flash',
+    model_name='models/gemini-1.5-flash-latest',
     system_instruction=system_instruction
 )
 
