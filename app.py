@@ -19,14 +19,14 @@ except:
 
 # 3. SETTING MODEL (GEMINI)
 system_instruction = (
-    "Kamu adalah asisten AI resmi untuk aplikasi BONGKAR. "
+    "Kamu adalah asisten AI resmi untuk aplikasi BONGKAR (Basis Online Navigasi Gerakan Konsultasi Akses Rakyat). "
     "Tugasmu membantu masyarakat Sorong Selatan terkait informasi Dinas PUPR. "
     "Aplikasi ini dikembangkan oleh Rain."
 )
 
-# Gunakan format 'gemini-1.5-flash-latest' agar selalu mengambil versi paling stabil
+# Gunakan cara panggil ini agar otomatis masuk ke API v1 (bukan v1beta)
 model = genai.GenerativeModel(
-    model_name='gemini-1.5-flash-latest', 
+    model_name='gemini-1.5-flash',
     system_instruction=system_instruction
 )
 
