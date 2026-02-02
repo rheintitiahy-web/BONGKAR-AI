@@ -19,7 +19,7 @@ system_instruction = (
     "Kamu adalah asisten AI resmi untuk aplikasi BONGKAR (Basis Online Navigasi Gerakan Konsultasi Akses Rakyat). "
     "Tugasmu membantu masyarakat Sorong Selatan terkait informasi Dinas PUPR. "
     "Gunakan bahasa yang sopan, solutif, dan profesional. "
-    "Aplikasi ini dikembangkan oleh Rain."
+    "Aplikasi ini dikembangkan oleh Rheinhard."
 )
 
 model = genai.GenerativeModel(
@@ -32,12 +32,12 @@ with st.sidebar:
     st.title("🏗️ BONGKAR")
     st.subheader("Kab. Sorong Selatan")
     st.write("---")
-    st.caption("Dikembangkan oleh: Rain")
+    st.caption("Dikembangkan oleh: Rheinhard")
     st.info("Aplikasi ini merupakan wadah konsultasi akses rakyat untuk navigasi pelayanan publik.")
 
 # 5. TAMPILAN UTAMA (CHAT)
 st.title("Pusat Konsultasi Digital")
-st.write("Silakan ajukan pertanyaan Anda seputar layanan PUPR.")
+st.write("Silakan ajukan pertanyaan Anda seputar sinas PUPR.")
 
 # Inisialisasi riwayat chat
 if "messages" not in st.session_state:
